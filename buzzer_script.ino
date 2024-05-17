@@ -1,22 +1,28 @@
-
-const int buzzerPin = 9;
+const int buzzer = 9;
 String command = "";
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);
+ 
+  pinMode(buzzer, OUTPUT);
   Serial.begin(9600);
 }
 
+
 void loop() {
+  
+
   if (Serial.available() > 0) {
     command = Serial.readStringUntil('\n');
     command.trim(); 
 
     if (command == "ON") {
-      tone(buzzerPin, 5000); 
-    } else if (command == "OFF") {
-      noTone(buzzerPin); 
+      
+      digitalWrite(buzzer,HIGH);
+
+}
+} else if (command == "OFF") {
+      noTone(buzzer); 
     }
   }
-}
+
 
