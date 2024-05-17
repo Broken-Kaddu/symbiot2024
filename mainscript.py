@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import os
 import time
 
-model = YOLO("yolo-Weights/yolov8n.pt", verbose=False)
+model = YOLO("yolo-Weights/yolov8s.pt", verbose=False)
 FALL_THRESHOLD = 40
 
 cap = cv2.VideoCapture(0)
