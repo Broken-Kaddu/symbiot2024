@@ -1,3 +1,4 @@
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -32,8 +33,10 @@ while True:
 
             if fall_detected and time.time() - fall_start_time > 5:
                 print("Fall detected")
-                # os.system(FALL_SCRIPT)
-                # os.system(AR_SCRIPT)
+                
+                os.system("python sms_script.py")
+                
+                os.system("python arduino_script.py")
                 fall_detected = False
 
     cv2.imshow("Frame", frame)
