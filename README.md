@@ -1,5 +1,3 @@
-Certainly! Here's the revised description with Arduino and a passive buzzer included in the components:
-
 ### Components:
 
 1. **OpenCV**: OpenCV is a popular computer vision library used for various image and video processing tasks. It provides functions for image/video capture, processing, and analysis.
@@ -39,3 +37,4 @@ Certainly! Here's the revised description with Arduino and a passive buzzer incl
    - The buzzer continues to sound until manually turned off, ensuring that the fall doesn't go unnoticed.
 
 With the inclusion of Arduino and the passive buzzer, the program provides both visual and audible alerts when a fall is detected, enhancing its effectiveness in notifying nearby individuals about the potential emergency situation.
+
