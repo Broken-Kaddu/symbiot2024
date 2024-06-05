@@ -37,5 +37,6 @@
    - The buzzer continues to sound until manually turned off, ensuring that the fall doesn't go unnoticed.
 
 With the inclusion of Arduino and the passive buzzer, the program provides both visual and audible alerts when a fall is detected, enhancing its effectiveness in notifying nearby individuals about the potential emergency situation.
+
 ---
 **To run just open in your preferred IDE and run the main_script.py**
