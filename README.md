@@ -1,4 +1,4 @@
-# Fall Detection System With OpenCV\
+# Fall Detection System With OpenCV
 
 ### Components:
 
