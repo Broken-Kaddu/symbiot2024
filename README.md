@@ -1,3 +1,5 @@
+# Fall Detection System With OpenCV\
+
 ### Components:
 
 1. **OpenCV**: OpenCV is a popular computer vision library used for various image and video processing tasks. It provides functions for image/video capture, processing, and analysis.
