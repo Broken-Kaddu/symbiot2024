@@ -18,6 +18,9 @@
 
 ### Workflow:
 
+!(workflow_picture)[fall_detetction_idea.png]
+
+
 1. **Video Feed Capture**: The program captures video feed either from a webcam or an external camera.
 
 2. **Object Detection**: Using YOLOv8s, the program performs real-time object detection to identify people in the video feed. It draws rectangular bounding boxes around detected persons and labels them as "person".
