@@ -18,7 +18,7 @@
 
 ### Workflow:
 
-!(workflow_picture)[fall_detetction_idea.png]
+![image](https://github.com/user-attachments/assets/026a1e06-6a5a-4956-b3b8-0ff2403a5fc6)
 
 
 1. **Video Feed Capture**: The program captures video feed either from a webcam or an external camera.
